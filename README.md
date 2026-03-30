@@ -21,13 +21,14 @@ Para extrair as características das imagens, foram definitos dois scripts,
 e outro o
 [LBP](https://scikit-image.org/docs/stable/auto_examples/features_detection/plot_local_binary_pattern.html).
 Ambos os scripts leem as imagens que tem os nomes `Russian_Blue`, `Birman`,
-`samoyed` e `pug` de um diretório chamando `images` e as classificam colocando o
-resultado num csv com essas colunas:
+`samoyed` e `pug` de um diretório chamando `images`, extraem suas características em features e colocam o resultado num csv seguinte formato:
 
 ```csv
 feat_1,feat_2,feat_3,...,feat_n,label
 ...
 ```
+
+`label` pode ser `cat` ou `dog`, mas seu valor não é deduzido após a extração, e sim pelo nome da raça manualmente.
 
 Ambos os scripts definem uma interface para a passagem de argumentos para as
 extrações, isto é:

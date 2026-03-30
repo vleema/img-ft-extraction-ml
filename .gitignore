@@ -1,0 +1,13 @@
+# data
+oxford-iiit-pet
+images
+out
+
+# python
+.venv
+.ruff-cache
+.mypy-cache
+__pycache__
+
+# editor
+.nvim.lua

@@ -15,7 +15,7 @@ E a execução de um script é realizado através de:
 uv run <nome_do_script>
 ```
 
-Para extrair as características das imagens, foram definitos dois scripts,
+Para extrair as características das imagens, foram definidos dois scripts,
 `hog.py` e `lbp.py`. Um que executa o método de extração de características
 [HOG](https://scikit-image.org/docs/stable/auto_examples/features_detection/plot_hog.html)
 e outro o

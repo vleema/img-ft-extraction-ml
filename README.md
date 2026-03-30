@@ -21,7 +21,7 @@ Para extrair as características das imagens, foram definitos dois scripts,
 e outro o
 [LBP](https://scikit-image.org/docs/stable/auto_examples/features_detection/plot_local_binary_pattern.html).
 Ambos os scripts leem as imagens que tem os nomes `Russian_Blue`, `Birman`,
-`samoyed` e `pug` de um diretório chamando imagens e as classificam colocando o
+`samoyed` e `pug` de um diretório chamando `images` e as classificam colocando o
 resultado num csv com essas colunas:
 
 ```csv
@@ -29,7 +29,7 @@ feat_1,feat_2,feat_3,...,feat_n,label
 ...
 ```
 
-Ambos os scripts definem uma interface para a passagem de argumentos para
+Ambos os scripts definem uma interface para a passagem de argumentos para as
 extrações, isto é:
 
 **lbp.py**
@@ -60,7 +60,7 @@ options:
 ```
 
 Para gerar as bases descritas na especificação do projeto, foi implementado um
-runner em shell (`run.sh`) que executa cada script de extração.
+runner em shell (`run.sh`) que executa cada script de extração com os parâmetros descritos mais a frente:
 
 ```terminal
 $ ./run.sh

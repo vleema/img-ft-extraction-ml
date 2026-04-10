@@ -1,7 +1,7 @@
 [project]
-name = "proj-001-hog-lbp-ml"
+name = "img-ft-extraction-ml"
 version = "0.1.0"
-description = "Extração de caractéristicas de imagens, Aprendizado de Máquina Supervisionado, projeto 01"
+description = "Extração de caractéristicas de imagens e modelos de classificação, Aprendizado de Máquina Supervisionado."
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [

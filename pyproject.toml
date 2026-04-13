@@ -5,18 +5,28 @@ description = "Extração de caractéristicas de imagens e modelos de classifica
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "ipywidgets>=8.1.8",
+    "joblib>=1.5.3",
+    "jupyter>=1.1.1",
+    "jupyterlab-lsp>=5.3.0",
+    "matplotlib>=3.10.8",
     "numpy>=2.4.4",
     "pandas>=3.0.1",
     "pandas-stubs>=3.0.0.260204",
     "scikit-image>=0.26.0",
     "scikit-learn>=1.8.0",
     "scikit-learn-stubs>=0.0.3",
+    "tqdm>=4.67.3",
 ]
 
 [dependency-groups]
 dev = [
     "basedpyright>=1.38.4",
     "ipykernel>=7.2.0",
+    "jupyter-collaboration>=4.3.0",
+    "jupyter-ruff>=0.3.1",
+    "jupyterlab>=4.5.6",
+    "jupyterlab-vim>=4.1.4",
     "ruff>=0.15.8",
     "uv>=0.11.6",
 ]

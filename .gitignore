@@ -2,11 +2,13 @@
 oxford-iiit-pet
 images
 out
+bases
 
 # python
 .venv
 .ruff-cache
 .mypy-cache
+.ipynb_checkpoints
 __pycache__
 
 # editor

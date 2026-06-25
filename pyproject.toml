@@ -13,6 +13,7 @@ dependencies = [
     "scikit-image>=0.26.0",
     "scikit-learn>=1.8.0",
     "scikit-learn-stubs>=0.0.3",
+    "scikit-posthocs>=0.14.0",
 ]
 
 [dependency-groups]
